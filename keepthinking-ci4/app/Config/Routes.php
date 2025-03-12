@@ -7,6 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 
+$routes->get('/', 'CrudApp::index');
 $routes->get('dashboard', 'CrudApp::index');
 $routes->get('dashboard/create', 'CrudApp::create');
 $routes->post('dashboard/store', 'CrudApp::store');
